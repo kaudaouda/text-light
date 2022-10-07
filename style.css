@@ -6,14 +6,30 @@
 }
 
 body{
+
+  top:0;
+  bottom: 0;
+  background: #000;
+}
+.Content{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: #000;
+  padding-top: 30vh;
+ 
 }
-.content{
+.Powered{
   width: 100%;
+  text-align: center;
+  margin-top: 30vh;
+  font-size: 12px;
+}
+.Powered span {
+  color: rgb(253, 79, 61);
+}
+.Powered p{
+  color: white;
 }
 .tech{
   color: rgb(253, 79, 61);
@@ -23,6 +39,7 @@ h2{
   font-weight: 500;
   color: #222;
   letter-spacing: 5px;
+  text-align: center;
 }
 
 h2 span {
